@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Point extends Color {
-    protected int x = 5,y = 5;
+    protected int x,y;
     public Point(){}
 
     public int getX() {

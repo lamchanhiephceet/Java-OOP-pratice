@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Color {
-    protected String colorName = "Blue", codeColor ="#0000FF";
+    protected String colorName , codeColor;
 
     public Color() {
     }

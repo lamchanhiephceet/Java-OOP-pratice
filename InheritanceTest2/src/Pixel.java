@@ -1,6 +1,5 @@
 public class Pixel extends Point {
-    public Pixel() {
-    }
+
     Pixel(int x, int y, String colorName,String codeColor) {
         this.x = x;
         this.y = y;
@@ -21,8 +20,8 @@ public class Pixel extends Point {
         return "Pixel{" +
                 "x=" + x +
                 ", y=" + y +
-                ", tenMau='" + colorName + '\'' +
-                ", maMau='" + codeColor + '\'' +
+                ", Ten Mau='" + colorName + '\'' +
+                ", Ma Mau='" + codeColor + '\'' +
                 '}';
     }
 }
